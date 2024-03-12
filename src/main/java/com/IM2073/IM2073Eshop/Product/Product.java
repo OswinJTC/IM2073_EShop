@@ -1,6 +1,5 @@
 package com.IM2073.IM2073Eshop.Product;
 
-
 import com.IM2073.IM2073Eshop.Review.Review;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -30,6 +29,8 @@ public class Product {
     @Column(name = "DESCRIPTION")
     private String description;
 
+    @Column(name = "IMAGE_PATH")
+    private String imagePath; // Store the path of the image file
 
-
+    // Constructors, getters, and setters
 }
